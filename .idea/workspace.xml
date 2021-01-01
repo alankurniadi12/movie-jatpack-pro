@@ -27,7 +27,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5X_API_27]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Sub3AkhirJatPack\exportToHTML" />
   </component>
@@ -507,6 +507,14 @@
     </state>
     <state x="252" y="221" key="FileChooserDialogImpl/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1607063435710" />
     <state x="252" y="221" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608094132854" />
+    <state x="597" y="315" key="Github.ShareDialog" timestamp="1609471990472">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="597" y="315" key="Github.ShareDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609471990472" />
+    <state x="379" y="116" key="Github.UntrackedFilesDialog" timestamp="1609472027338">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="379" y="116" key="Github.UntrackedFilesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472027338" />
     <state width="1492" height="379" key="GridCell.Tab.0.bottom" timestamp="1609465967326">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
