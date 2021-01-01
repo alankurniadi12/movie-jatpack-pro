@@ -18,16 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca6101c-a194-464a-adbe-2e3004af2abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/BlankFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_blank.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/room/AppDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/room/AppDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bookmark_trending.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bookmark_trending.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/MovieBookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/MovieBookmarkFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

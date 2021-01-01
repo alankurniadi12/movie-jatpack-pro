@@ -132,8 +132,8 @@ class MovieDbRepository private constructor(
     override fun getBookmarkMovie(): LiveData<PagedList<NowPlayingMovie>> {
         val config = PagedList.Config.Builder()
             .setEnablePlaceholders(false)
-            .setInitialLoadSizeHint(1)
-            .setPageSize(1)
+            .setInitialLoadSizeHint(4)
+            .setPageSize(4)
             .build()
         return LivePagedListBuilder(localDataSource.getBookmarkMovie(), config).build()
     }

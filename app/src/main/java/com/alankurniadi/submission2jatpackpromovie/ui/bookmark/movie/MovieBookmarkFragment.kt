@@ -16,6 +16,14 @@ class MovieBookmarkFragment : Fragment() {
 
     private lateinit var binding: FragmentMovieBookmarkBinding
     private lateinit var adapter: BookmarkMovieAdapter
+    private lateinit var vm: BookmarkMovieViewModel
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val factory = ViewModelFactory.getInstance(requireActivity())
+        vm = ViewModelProvider(this, factory)[BookmarkMovieViewModel::class.java]
+        adapter = BookmarkMovieAdapter(requireActivity())
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,22 +33,18 @@ class MovieBookmarkFragment : Fragment() {
         return binding.root
     }
 
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onResume() {
+        super.onResume()
         if (activity != null) {
-            val factory = ViewModelFactory.getInstance(requireActivity())
-            val vm = ViewModelProvider(this, factory)[BookmarkMovieViewModel::class.java]
-            adapter = BookmarkMovieAdapter(requireActivity())
             binding.progressBarMovie.visibility = View.VISIBLE
             vm.getBookmark().observe(viewLifecycleOwner, Observer { data ->
                 binding.progressBarMovie.visibility = View.GONE
                 adapter.submitList(data)
-                adapter.notifyDataSetChanged()
+                binding.rvBookmarkMovie.layoutManager = LinearLayoutManager(context)
+                binding.rvBookmarkMovie.setHasFixedSize(true)
+                binding.rvBookmarkMovie.adapter = adapter
             })
-            binding.rvBookmarkMovie.layoutManager = LinearLayoutManager(context)
-            binding.rvBookmarkMovie.setHasFixedSize(true)
-            binding.rvBookmarkMovie.adapter = adapter
+
         }
     }
 }
