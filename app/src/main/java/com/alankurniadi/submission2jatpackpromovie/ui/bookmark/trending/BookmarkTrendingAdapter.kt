@@ -40,6 +40,7 @@ class BookmarkTrendingAdapter internal constructor(): PagedListAdapter<TrendingW
         if (list != null) {
             holder.bind(list)
         }
+
     }
 
     inner class BookmarkViewHolder(private val binding: ItemListBookmarkBinding): RecyclerView.ViewHolder(binding.root) {

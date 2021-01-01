@@ -18,6 +18,12 @@ class BookmarkTrendingFragment : Fragment() {
     private lateinit var adapter: BookmarkTrendingAdapter
     private lateinit var vm: BookmarkTrendingViewModel
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val factory = ViewModelFactory.getInstance(requireContext())
+        vm = ViewModelProvider(this, factory)[BookmarkTrendingViewModel::class.java]
+        adapter = BookmarkTrendingAdapter()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,22 +33,18 @@ class BookmarkTrendingFragment : Fragment() {
         return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onResume() {
+        super.onResume()
         if (activity != null) {
-            val factory = ViewModelFactory.getInstance(requireContext())
-            vm = ViewModelProvider(this, factory)[BookmarkTrendingViewModel::class.java]
-            adapter = BookmarkTrendingAdapter()
             binding.progressBarTrending.visibility = View.VISIBLE
             vm.getBookmarkTrending().observe(viewLifecycleOwner, Observer { data ->
                 binding.progressBarTrending.visibility = View.GONE
-                Log.e("BookmarkTrending", "DATA: $data")
                 adapter.submitList(data)
-                adapter.notifyDataSetChanged()
+                binding.rvBookmarkTrending.layoutManager = LinearLayoutManager(context)
+                binding.rvBookmarkTrending.setHasFixedSize(true)
+                binding.rvBookmarkTrending.adapter = adapter
             })
-            binding.rvBookmarkTrending.layoutManager = LinearLayoutManager(context)
-            binding.rvBookmarkTrending.setHasFixedSize(true)
-            binding.rvBookmarkTrending.adapter = adapter
         }
     }
+
 }

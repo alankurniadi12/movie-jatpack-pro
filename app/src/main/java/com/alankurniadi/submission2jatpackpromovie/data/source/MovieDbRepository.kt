@@ -38,8 +38,8 @@ class MovieDbRepository private constructor(
             override fun loadFromDB(): LiveData<PagedList<TrendingWeek>> {
                 val config = PagedList.Config.Builder()
                     .setEnablePlaceholders(false)
-                    .setInitialLoadSizeHint(1)
-                    .setPageSize(1)
+                    .setInitialLoadSizeHint(4)
+                    .setPageSize(4)
                     .build()
                 return LivePagedListBuilder(localDataSource.getAllTrending(), config).build()
             }
@@ -81,8 +81,8 @@ class MovieDbRepository private constructor(
     override fun getBookmarkTrending(): LiveData<PagedList<TrendingWeek>> {
         val config = PagedList.Config.Builder()
             .setEnablePlaceholders(false)
-            .setInitialLoadSizeHint(1)
-            .setPageSize(1)
+            .setInitialLoadSizeHint(4)
+            .setPageSize(4)
             .build()
         return LivePagedListBuilder(localDataSource.getBookmarkTrending(), config).build()
     }
@@ -94,8 +94,8 @@ class MovieDbRepository private constructor(
             override fun loadFromDB(): LiveData<PagedList<NowPlayingMovie>> {
                 val config = PagedList.Config.Builder()
                     .setEnablePlaceholders(false)
-                    .setInitialLoadSizeHint(1)
-                    .setPageSize(1)
+                    .setInitialLoadSizeHint(4)
+                    .setPageSize(4)
                     .build()
                 return LivePagedListBuilder(localDataSource.getAllNowPlaying(), config).build()
             }
@@ -145,8 +145,8 @@ class MovieDbRepository private constructor(
             override fun loadFromDB(): LiveData<PagedList<NowAiringTv>> {
                 val config = PagedList.Config.Builder()
                     .setEnablePlaceholders(false)
-                    .setInitialLoadSizeHint(1)
-                    .setPageSize(1)
+                    .setInitialLoadSizeHint(4)
+                    .setPageSize(4)
                     .build()
                 return LivePagedListBuilder(localDataSource.getAllAiringTv(), config).build()
             }
@@ -184,8 +184,8 @@ class MovieDbRepository private constructor(
     override fun getBookmarkTv(): LiveData<PagedList<NowAiringTv>> {
         val config = PagedList.Config.Builder()
             .setEnablePlaceholders(false)
-            .setInitialLoadSizeHint(1)
-            .setPageSize(1)
+            .setInitialLoadSizeHint(4)
+            .setPageSize(4)
             .build()
         return LivePagedListBuilder(localDataSource.getBookmarkTv(), config).build()
     }

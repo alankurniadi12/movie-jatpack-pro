@@ -20,7 +20,7 @@ interface AppDao {
     @Query("SELECT * FROM trending")
     fun getAllTrending(): DataSource.Factory<Int, TrendingWeek>
 
-    @Query("SELECT * from trending WHERE id = :id")
+    @Query("SELECT * FROM trending WHERE id = :id")
     fun getDetailTrending(id: Int): LiveData<TrendingWeek>
 
     @Query("SELECT * FROM trending WHERE bookmarked = 1")
