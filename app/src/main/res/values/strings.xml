@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Sub3JatPackProMovie</string>
+
+    // Home Layout
+    <string name="main_title">The Movie DB</string>
+    <string name="main_title2">Million of Movie and Tv shows</string>
+    <string name="what_trending">What\'s Trending</string>
+    <string name="see_all_trending">See All</string>
+    <string name="playing_now">Playing Now</string>
+    <string name="movie_now_playing">Movie</string>
+    <string name="tv_airing_today">Tv</string>
+
+    // Detail Layout
+    <string name="cd_image_poster">Image Poster</string>
+    <string name="media_type_movie">Movie</string>
+    <string name="media_type_tv">Tv</string>
+    <string name="vote_10">10</string>
+    <string name="release_date">2020–07–26</string>
+    <string name="overview">Overview:</string>
+    <string name="dummy_detail">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </string>
+    <string name="cd_image_backdroup">Image Backdroup</string>
+
+    // Card Item Layout
+    <string name="rating_number">10</string>
+    <string name="air_date_main">2020–07–25</string>
+    <string name="title_card_item">Title</string>
+
+    <string name="created_by">Created by:</string>
+    <string name="creator_name">Creator Name</string>
+    <string name="title_bookmark">Title Bookmark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Bookmark
+    <string name="tab_trending">Trend</string>
+    <string name="tab_movie">Movie</string>
+    <string name="tab_tv">Tv Show</string>
+    <string name="bookmark_menu">Bookmark</string>
+</resources>

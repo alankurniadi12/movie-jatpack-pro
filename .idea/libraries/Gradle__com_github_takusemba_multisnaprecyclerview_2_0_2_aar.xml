@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.takusemba:multisnaprecyclerview:2.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcab7ad8290bd1691668d1085aec11aa/jetified-multisnaprecyclerview-2.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcab7ad8290bd1691668d1085aec11aa/jetified-multisnaprecyclerview-2.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcab7ad8290bd1691668d1085aec11aa/jetified-multisnaprecyclerview-2.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.takusemba/multisnaprecyclerview/2.0.2/973ccfb3da55374d20f2cab43039ce694ff5d987/multisnaprecyclerview-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.takusemba/multisnaprecyclerview/2.0.2/ef7e661717df0f2fe41e855a493274c90cc80cc3/multisnaprecyclerview-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
