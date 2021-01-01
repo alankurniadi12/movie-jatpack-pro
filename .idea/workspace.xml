@@ -18,9 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca6101c-a194-464a-adbe-2e3004af2abf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/MovieBookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/MovieBookmarkFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/tv/TvBookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/tv/TvBookmarkFragment.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -536,25 +534,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="379" y="116" key="Github.UntrackedFilesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472027338" />
-    <state width="1492" height="164" key="GridCell.Tab.0.bottom" timestamp="1609487736999">
+    <state width="1492" height="273" key="GridCell.Tab.0.bottom" timestamp="1609488672691">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="164" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609487736999" />
+    <state width="1492" height="273" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609488672691" />
     <state width="1491" height="208" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609410273967" />
-    <state width="1492" height="164" key="GridCell.Tab.0.center" timestamp="1609487736998">
+    <state width="1492" height="273" key="GridCell.Tab.0.center" timestamp="1609488672691">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="164" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609487736998" />
+    <state width="1492" height="273" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609488672691" />
     <state width="1491" height="208" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609410273966" />
-    <state width="1492" height="164" key="GridCell.Tab.0.left" timestamp="1609487736997">
+    <state width="1492" height="273" key="GridCell.Tab.0.left" timestamp="1609488672691">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="164" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609487736997" />
+    <state width="1492" height="273" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609488672691" />
     <state width="1491" height="208" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609410273966" />
-    <state width="1492" height="164" key="GridCell.Tab.0.right" timestamp="1609487736998">
+    <state width="1492" height="273" key="GridCell.Tab.0.right" timestamp="1609488672691">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="164" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609487736998" />
+    <state width="1492" height="273" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609488672691" />
     <state width="1491" height="208" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609410273966" />
     <state x="555" y="107" width="914" height="707" key="SettingsEditor" timestamp="1609468018280">
       <screen x="0" y="0" width="1536" height="834" />

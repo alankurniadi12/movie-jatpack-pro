@@ -15,7 +15,14 @@ class TvBookmarkFragment : Fragment() {
 
     private lateinit var binding: FragmentTvBookmarkBinding
     private lateinit var adapter: BookmarkTvAdapter
+    private lateinit var vm: BookmarkTvViewModel
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        val factory = ViewModelFactory.getInstance(requireContext())
+        vm = ViewModelProvider(this, factory)[BookmarkTvViewModel::class.java]
+        adapter = BookmarkTvAdapter(requireActivity())
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -24,21 +31,18 @@ class TvBookmarkFragment : Fragment() {
         return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onResume() {
+        super.onResume()
         if (activity != null) {
-            val factory = ViewModelFactory.getInstance(requireContext())
-            val vm = ViewModelProvider(this, factory)[BookmarkTvViewModel::class.java]
-            adapter = BookmarkTvAdapter(requireActivity())
             binding.progressBarTv.visibility = View.VISIBLE
             vm.getBookmarkTv().observe(viewLifecycleOwner, Observer { data ->
                 binding.progressBarTv.visibility = View.GONE
                 adapter.submitList(data)
-                adapter.notifyDataSetChanged()
+                binding.rvBookmarkTv.layoutManager = LinearLayoutManager(context)
+                binding.rvBookmarkTv.setHasFixedSize(true)
+                binding.rvBookmarkTv.adapter = adapter
             })
-            binding.rvBookmarkTv.layoutManager = LinearLayoutManager(context)
-            binding.rvBookmarkTv.setHasFixedSize(true)
-            binding.rvBookmarkTv.adapter = adapter
+
         }
     }
 }
