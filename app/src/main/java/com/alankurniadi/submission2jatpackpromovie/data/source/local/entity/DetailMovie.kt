@@ -24,6 +24,4 @@ data class DetailMovie(
     var release_date: String? = null,
     @ColumnInfo(name = "vote average")
     var vote_average: Double? = null,
-
-
 ): Serializable

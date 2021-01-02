@@ -4,6 +4,7 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepository
+import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.NowPlayingMovie
 import com.alankurniadi.submission2jatpackpromovie.utils.DataDummy
 import com.nhaarman.mockitokotlin2.verify
 import org.junit.Assert.assertEquals
@@ -30,7 +31,7 @@ class DetailMovieViewModelTest {
     private lateinit var movieDbRepository: MovieDbRepository
 
     @Mock
-    private lateinit var observer: Observer<Detail.Movie>
+    private lateinit var observer: Observer<NowPlayingMovie>
 
     @Before
     fun setUp() {
@@ -39,23 +40,23 @@ class DetailMovieViewModelTest {
 
     @Test
     fun getDetailMovie() {
-        val movie = MutableLiveData<Detail.Movie>()
+        val movie = MutableLiveData<NowPlayingMovie>()
         movie.value = dummy
 
         `when`(movieDbRepository.getDetailMovie(id)).thenReturn(movie)
-        val detail = viewModel.getDetailMovie(id).value
+        val detail = viewModel.getMovie.value
         verify(movieDbRepository).getDetailMovie(id)
 
         assertNotNull(detail)
         assertEquals(detail?.id, dummy.id)
-        assertEquals(detail?.backdrop_path, dummy.backdrop_path)
+        assertEquals(detail?.backDrop, dummy.backDrop)
         assertEquals(detail?.title, dummy.title)
-        assertEquals(detail?.overview, dummy.overview)
-        assertEquals(detail?.poster_path, dummy.poster_path)
-        assertEquals(detail?.release_date, dummy.release_date)
-        assertEquals(detail?.vote_average, dummy.vote_average)
+        assertEquals(detail?.overView, dummy.overView)
+        assertEquals(detail?.poster, dummy.poster)
+        assertEquals(detail?.date, dummy.date)
+        assertEquals(detail?.vote, dummy.vote)
 
-        viewModel.getDetailMovie(id).observeForever(observer)
+        viewModel.getMovie.observeForever(observer)
         verify(observer).onChanged(dummy)
     }
 }

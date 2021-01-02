@@ -1,0 +1,50 @@
+Skenario Unit Test
+	* RepositoryTest
+
+		fun getTrendingWeek() //List Trending
+		- Cek data trending apakah null atau tidak.
+		- Melakukan pengecekan jumlah data trending apakah sesuai dengan yang di harapkan.
+
+		fun getDetailTrending()  //Detail Data Trending
+		- Cek data detail trending apakah null atau tidak
+		- Cek data detail(id) apakah null atau tidak.
+		- Memastikan data(id) detail trending seusai yang diharapkan
+
+		fun setDetailBookmarkTrending() //List Bookmark Trending
+		- Cek data bookmark trending apakah nul atau tidak
+		- Melakukan pengecekan jumlah data bookmark trending apakah sesusai dengan yang diharapkan
+
+
+
+		fun getNowPlayingMovie() //List Movie
+		- Cek data movie apakah null atau tidak.
+		- Melakukan pengecekan jumlah data movie apakah sesuai dengan yang di harapkan.
+		
+		fun getDetailMovie() //Detail data Movie
+		- Cek data detail movie apakah null atau tidak
+		- Cek data detail(id) apakah null atau tidak.
+		- Memastikan data(id) detail movie seusai yang diharapkan
+
+		fun getBookmarkMovie() //List Bookmark Movie
+		- Cek data bookmark movie apakah null atau tidak
+		- Melakukan pengecekan jumlah data bookmark movie apakah sesusai dengan yang diharapkan
+
+
+
+		fun getAiringTv() //List TvShow
+		- Cek data tvshow apakah null atau tidak.
+		- Melakukan pengecekan jumlah data tvshow apakah sesuai dengan yang di harapkan.
+
+		fun getDetailTv() //Detail data Tvshow
+		- Cek data detail tvshow apakah null atau tidak.
+		- Cek data detail(id) apakah null atau tidak.
+		- Memastikan data(id) detail tvshow seusai yang diharapkan.
+
+		fun getBookmarkTv() //List Bookmark TvShow
+		- Cek data bookmark tvshow apakah null atau tidak.
+		- Melakukan pengecekan jumlah data bookmark tvshow apakah sesusai dengan yang diharapkan.
+
+
+
+	* Trending ViewModel
+		

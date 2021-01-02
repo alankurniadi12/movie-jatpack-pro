@@ -3,10 +3,10 @@ package com.alankurniadi.submission2jatpackpromovie.ui.home
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.TrendingWeek
+import androidx.paging.PagedList
 import com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepository
-import com.alankurniadi.submission2jatpackpromovie.data.source.remote.response.ResponseResultTrending
-import com.alankurniadi.submission2jatpackpromovie.utils.DataDummy
+import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.TrendingWeek
+import com.alankurniadi.submission2jatpackpromovie.vo.Resource
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Before
@@ -30,7 +30,10 @@ class WeekViewModelTest {
     private lateinit var movieDbRepository: MovieDbRepository
 
     @Mock
-    private lateinit var observer: Observer<List<TrendingWeek>>
+    private lateinit var observer: Observer<Resource<PagedList<TrendingWeek>>>
+
+    @Mock
+    private lateinit var pagedList: PagedList<TrendingWeek>
 
     @Before
     fun setUp() {
@@ -39,17 +42,16 @@ class WeekViewModelTest {
 
     @Test
     fun getWeekTrending() {
-        val trendingList = MutableLiveData<List<TrendingWeek>>()
-        val dataDummy = DataDummy.getTrending()
-        trendingList.value = dataDummy
+        val dataDummy = Resource.success(pagedList)
+        `when`(dataDummy.data?.size).thenReturn(21)
+        val trending = MutableLiveData<Resource<PagedList<TrendingWeek>>>()
+        trending.value = dataDummy
 
-        `when`(movieDbRepository.getTrendingWeek()).thenReturn(trendingList)
-        viewModel.getTrendingWeek()
-        val dataTrending = viewModel.data
-        verify<MovieDbRepository>(movieDbRepository).getTrendingWeek()
-
-        assertNotNull(dataTrending)
-        assertEquals(21, dataTrending.value?.size)
+        `when`(movieDbRepository.getTrendingWeek()).thenReturn(trending)
+        val mTrending = viewModel.data.value?.data
+        verify(movieDbRepository).getTrendingWeek()
+        assertNotNull(mTrending)
+        assertEquals(21, mTrending?.size)
 
         viewModel.data.observeForever(observer)
         verify(observer).onChanged(dataDummy)

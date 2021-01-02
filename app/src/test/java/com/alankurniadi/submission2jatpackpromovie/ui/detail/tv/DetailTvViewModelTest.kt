@@ -4,6 +4,7 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepository
+import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.NowAiringTv
 import com.alankurniadi.submission2jatpackpromovie.utils.DataDummy
 import com.nhaarman.mockitokotlin2.verify
 import org.junit.Assert.assertEquals
@@ -30,7 +31,7 @@ class DetailTvViewModelTest {
     private lateinit var movieDbRepository: MovieDbRepository
 
     @Mock
-    private lateinit var observer: Observer<Detail.TvShow>
+    private lateinit var observer: Observer<NowAiringTv>
 
     @Before
     fun setUp() {
@@ -39,24 +40,23 @@ class DetailTvViewModelTest {
 
     @Test
     fun getDataDetailTv() {
-        val tvShow = MutableLiveData<Detail.TvShow>()
+        val tvShow = MutableLiveData<NowAiringTv>()
         tvShow.value = dummy
 
         `when`(movieDbRepository.getDetailTv(id)).thenReturn(tvShow)
-        val detail = viewModel.getDataDetailTv(id).value
+        val detail = viewModel.getTv.value
         verify(movieDbRepository).getDetailTv(id)
 
         assertNotNull(detail)
         assertEquals(detail?.id, id)
-        assertEquals(detail?.created_by, dummy.created_by)
-        assertEquals(detail?.backdrop_path, dummy.backdrop_path)
+        assertEquals(detail?.backDrop, dummy.backDrop)
         assertEquals(detail?.name, dummy.name)
         assertEquals(detail?.overview, dummy.overview)
         assertEquals(detail?.poster_path, dummy.poster_path)
         assertEquals(detail?.first_air_date, dummy.first_air_date)
-        assertEquals(detail?.vote_average, dummy.vote_average)
+        assertEquals(detail?.vote, dummy.vote)
 
-        viewModel.getDataDetailTv(id).observeForever(observer)
+        viewModel.getTv.observeForever(observer)
         verify(observer).onChanged(dummy)
     }
 }
