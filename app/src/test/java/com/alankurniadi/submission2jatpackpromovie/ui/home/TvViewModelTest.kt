@@ -49,12 +49,12 @@ class TvViewModelTest {
 
 
         `when`(movieDbRepository.getAiringTv()).thenReturn(tvShow)
-        val mTvShow = viewmodel.data.value?.data
+        val mTvShow = viewmodel.getNowAiringTv().value?.data
         verify(movieDbRepository).getAiringTv()
         assertNotNull(mTvShow)
         assertEquals(5, mTvShow?.size)
 
-        viewmodel.data.observeForever(observer)
+        viewmodel.getNowAiringTv().observeForever(observer)
         verify(observer).onChanged(dummyTv)
     }
 }

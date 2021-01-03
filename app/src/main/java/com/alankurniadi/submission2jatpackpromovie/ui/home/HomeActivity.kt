@@ -81,10 +81,8 @@ class HomeActivity : AppCompatActivity() {
 
         //TV
         val viewModelTv = ViewModelProvider(this, factory)[TvViewModel::class.java]
-        viewModelTv.getNowAiringTv()
         tvAdapter = TvAdapter(this)
-        //EspressoIdlingResource.increment()
-        viewModelTv.data.observe(this, Observer {
+        viewModelTv.getNowAiringTv().observe(this, Observer {
             if (it != null) {
                 when(it.status) {
                     Status.LOADING -> binding.progressTv.visibility = View.VISIBLE
