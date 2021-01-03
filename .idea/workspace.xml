@@ -36,35 +36,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca6101c-a194-464a-adbe-2e3004af2abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_inline_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkenarioTestingLastsubmission.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/data/source/FakeMovieDbRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepositoryTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/utils/LiveDataTestUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/utils/PagedListUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_inline_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Submission2JatPackProMovie.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Submission2JatPackProMovie.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TrendingViewModelTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/DetailMovie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/DetailMovie.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/BlankFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TrendingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TrendingViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/utils/DataDummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/utils/DataDummy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_blank.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/movie/DetailMovieViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/movie/DetailMovieViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/tv/DetailTvViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/tv/DetailTvViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/MovieViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/MovieViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TvViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TvViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/WeekViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/WeekViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/WeekViewModelTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +78,8 @@
         <option value="layoutResourceFile" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Kotlin Object" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -130,7 +107,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../ProgramFile/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CloneRepo/Project Academy/12. Pagination-test/kotlin" />
     <property name="multi-representation-previewD:/Project/Dicoding/BAJP/Sub3AkhirJatPack/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/MyButton.kt_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="SDK Location" />
@@ -149,12 +126,13 @@
     <key name="android.template.-76181669">
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.detail" />
     </key>
-    <key name="android.template.-594338037">
-      <recent name="com.alankurniadi.submission2jatpackpromovie.ui.bookmark" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\res\drawable" />
+      <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\java\com\alankurniadi\submission2jatpackpromovie\util" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.alankurniadi.submission2jatpackpromovie.data.source" />
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.home" />
+      <recent name="com.alankurniadi.submission2jatpackpromovie.data.source" />
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.detail.tv" />
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.detail.movie" />
     </key>
@@ -184,12 +162,11 @@
       <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\java\com\alankurniadi\submission2jatpackpromovie\ui\home" />
       <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\res\font" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\res\drawable" />
-      <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\java\com\alankurniadi\submission2jatpackpromovie\util" />
+    <key name="android.template.-594338037">
+      <recent name="com.alankurniadi.submission2jatpackpromovie.ui.bookmark" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.MovieDbRepositoryTest.getBookmarkTv">
+  <component name="RunManager" selected="Android JUnit.TrendingViewModelTest.getTrendingWeek">
     <configuration name="MovieDbRepositoryTest.getAiringTv" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Submission2JatPackProMovie.app" />
       <extension name="coverage">
@@ -201,23 +178,6 @@
       <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source" />
       <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepositoryTest" />
       <option name="METHOD_NAME" value="getAiringTv" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieDbRepositoryTest.getBookmarkMovie" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Submission2JatPackProMovie.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.data.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source" />
-      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepositoryTest" />
-      <option name="METHOD_NAME" value="getBookmarkMovie" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -241,23 +201,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieDbRepositoryTest.getDetailMovie" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Submission2JatPackProMovie.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.data.source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source" />
-      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepositoryTest" />
-      <option name="METHOD_NAME" value="getDetailMovie" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovieDbRepositoryTest.getDetailTv" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Submission2JatPackProMovie.app" />
       <extension name="coverage">
@@ -269,6 +212,40 @@
       <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source" />
       <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepositoryTest" />
       <option name="METHOD_NAME" value="getDetailTv" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieViewModelTest.getNowPlayingMovie" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Submission2JatPackProMovie.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.ui.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home" />
+      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home.MovieViewModelTest" />
+      <option name="METHOD_NAME" value="getNowPlayingMovie" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrendingViewModelTest.getTrendingWeek" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Submission2JatPackProMovie.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.ui.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home" />
+      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home.TrendingViewModelTest" />
+      <option name="METHOD_NAME" value="getTrendingWeek" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -341,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.TrendingViewModelTest.getTrendingWeek" />
+        <item itemvalue="Android JUnit.MovieViewModelTest.getNowPlayingMovie" />
         <item itemvalue="Android JUnit.MovieDbRepositoryTest.getBookmarkTv" />
         <item itemvalue="Android JUnit.MovieDbRepositoryTest.getDetailTv" />
         <item itemvalue="Android JUnit.MovieDbRepositoryTest.getAiringTv" />
-        <item itemvalue="Android JUnit.MovieDbRepositoryTest.getBookmarkMovie" />
-        <item itemvalue="Android JUnit.MovieDbRepositoryTest.getDetailMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -478,25 +455,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="379" y="116" key="Github.UntrackedFilesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472027338" />
-    <state width="1491" height="229" key="GridCell.Tab.0.bottom" timestamp="1609597065560">
+    <state width="1491" height="380" key="GridCell.Tab.0.bottom" timestamp="1609662011580">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="229" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609597065560" />
+    <state width="1491" height="380" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011580" />
     <state width="1491" height="364" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
-    <state width="1491" height="229" key="GridCell.Tab.0.center" timestamp="1609597065560">
+    <state width="1491" height="380" key="GridCell.Tab.0.center" timestamp="1609662011579">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="229" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609597065560" />
+    <state width="1491" height="380" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011579" />
     <state width="1491" height="364" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
-    <state width="1491" height="229" key="GridCell.Tab.0.left" timestamp="1609597065559">
+    <state width="1491" height="380" key="GridCell.Tab.0.left" timestamp="1609662011578">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="229" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609597065559" />
+    <state width="1491" height="380" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011578" />
     <state width="1491" height="364" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609561893276" />
-    <state width="1491" height="229" key="GridCell.Tab.0.right" timestamp="1609597065560">
+    <state width="1491" height="380" key="GridCell.Tab.0.right" timestamp="1609662011579">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="229" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609597065560" />
+    <state width="1491" height="380" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011579" />
     <state width="1491" height="364" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
     <state x="555" y="107" width="914" height="707" key="SettingsEditor" timestamp="1609572502804">
       <screen x="0" y="0" width="1536" height="834" />
@@ -504,13 +481,14 @@
     <state x="555" y="107" key="SettingsEditor/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609572502804" />
     <state x="571" y="107" width="914" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1609556969682" />
     <state x="951" y="133" width="1175" height="766" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1601347733932" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1609472521777">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1609597677439">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472521777" />
-    <state x="584" y="195" key="chooseDestDirectoryDialog" timestamp="1609562592769">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609597677439" />
+    <state x="584" y="195" key="chooseDestDirectoryDialog" timestamp="1609599017527">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609599017527" />
     <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1609562592768" />
     <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609472637517">
       <screen x="0" y="0" width="1536" height="834" />
@@ -535,9 +513,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="532" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472429218" />
-    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1609562592811">
+    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1609599017567">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609599017567" />
     <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1609562592811" />
     <state x="545" y="190" key="refactoring.ChangeSignatureDialog" timestamp="1608117123537">
       <screen x="0" y="0" width="1536" height="834" />

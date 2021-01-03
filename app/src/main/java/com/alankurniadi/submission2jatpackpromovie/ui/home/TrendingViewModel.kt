@@ -22,9 +22,7 @@ class TrendingViewModel(private val movieDbRepository: MovieDbRepository) : View
         movieDbRepository.getDetailTrending(id.toInt())
     }
 
-    fun getTrendingWeek() {
-        data = movieDbRepository.getTrendingWeek()
-    }
+    fun getTrendingWeek(): LiveData<Resource<PagedList<TrendingWeek>>> = movieDbRepository.getTrendingWeek()
 
     fun setDetailTrendingBookmark() {
         val mTrending = getDetailTrending.value

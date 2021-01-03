@@ -205,45 +205,6 @@ object DataDummy {
         return tvShow
     }
 
-    fun getMovieDetail():NowPlayingMovie {
-        return NowPlayingMovie(
-            385103,
-            "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
-            "Scoob!",
-            "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
-            "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
-            "2020-07-08",
-            7.6,
-            true
-        )
-    }
-
-    fun getTvShowDetail(): List<NowAiringTv> {
-        val detail = ArrayList<NowAiringTv>()
-        detail.add(NowAiringTv (
-            75006,
-            "/qJxzjUjCpTPvDHldNnlbRC4OqEh.jpg",
-            "2019-02-15",
-            "The Umbrella Academy",
-            "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.",
-            "/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg",
-            8.4,
-            true)
-        )
-
-        detail.add(NowAiringTv (
-            60572,
-            "/tvjCdVRkaaab2ezM9BctkAOXeyW.jpg",
-            "1997-04-01",
-            "Pokémon",
-            "Join Ash Ketchum, accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.",
-            "/rOuGm07PxBhEsK9TaGPRQVJQm1X.jpg",
-            6.8,
-            true)
-        )
-        return detail
-    }
-
     //REMOTE
     fun getTrendingRemote(): List<TrendingResponse> {
         val trending = ArrayList<TrendingResponse>()
@@ -424,6 +385,48 @@ object DataDummy {
             8.2
         ))
         return tvShow
+    }
+
+
+
+
+    fun getMovieDetail():NowPlayingMovie {
+        return NowPlayingMovie(
+            385103,
+            "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
+            "Scoob!",
+            "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+            "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+            "2020-07-08",
+            7.6,
+            true
+        )
+    }
+
+    fun getTvShowDetail(): List<NowAiringTv> {
+        val detail = ArrayList<NowAiringTv>()
+        detail.add(NowAiringTv (
+            75006,
+            "/qJxzjUjCpTPvDHldNnlbRC4OqEh.jpg",
+            "2019-02-15",
+            "The Umbrella Academy",
+            "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.",
+            "/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg",
+            8.4,
+            true)
+        )
+
+        detail.add(NowAiringTv (
+            60572,
+            "/tvjCdVRkaaab2ezM9BctkAOXeyW.jpg",
+            "1997-04-01",
+            "Pokémon",
+            "Join Ash Ketchum, accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.",
+            "/rOuGm07PxBhEsK9TaGPRQVJQm1X.jpg",
+            6.8,
+            true)
+        )
+        return detail
     }
 
 

@@ -7,19 +7,17 @@ import androidx.paging.PagedList
 import com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepository
 import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.TrendingWeek
 import com.alankurniadi.submission2jatpackpromovie.vo.Resource
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertNotNull
+import org.junit.Assert
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.Mock
-import org.mockito.Mockito.`when`
-import org.mockito.Mockito.verify
+import org.mockito.Mockito
 import org.mockito.junit.MockitoJUnitRunner
 
 @RunWith(MockitoJUnitRunner::class)
-class WeekViewModelTest {
+class TrendingViewModelTest {
 
     private lateinit var viewModel: TrendingViewModel
 
@@ -41,20 +39,19 @@ class WeekViewModelTest {
     }
 
     @Test
-    fun getWeekTrending() {
+    fun getTrendingWeek() {
         val dataDummy = Resource.success(pagedList)
-        `when`(dataDummy.data?.size).thenReturn(21)
+        Mockito.`when`(dataDummy.data?.size).thenReturn(5)
         val trending = MutableLiveData<Resource<PagedList<TrendingWeek>>>()
         trending.value = dataDummy
 
-        `when`(movieDbRepository.getTrendingWeek()).thenReturn(trending)
-        val mTrending = viewModel.data.value?.data
-        verify(movieDbRepository).getTrendingWeek()
-        assertNotNull(mTrending)
-        assertEquals(21, mTrending?.size)
+        Mockito.`when`(movieDbRepository.getTrendingWeek()).thenReturn(trending)
+        val mTrending = viewModel.getTrendingWeek().value?.data
+        Mockito.verify(movieDbRepository).getTrendingWeek()
+        Assert.assertNotNull(mTrending)
+        Assert.assertEquals(5, mTrending?.size)
 
-        viewModel.data.observeForever(observer)
-        verify(observer).onChanged(dataDummy)
+        viewModel.getTrendingWeek().observeForever(observer)
+        Mockito.verify(observer).onChanged(dataDummy)
     }
-
 }

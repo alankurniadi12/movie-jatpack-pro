@@ -37,9 +37,9 @@ class HomeActivity : AppCompatActivity() {
         //TRENDING
         val viewModelWeek = ViewModelProvider(this, factory)[TrendingViewModel::class.java]
         binding.progressBarWeek.visibility = View.VISIBLE
-        viewModelWeek.getTrendingWeek()
+        //viewModelWeek.getTrendingWeek()
         trendingAdapter = TrendingAdapter(this)
-        viewModelWeek.data.observe(this, Observer {
+        viewModelWeek.getTrendingWeek().observe(this, Observer {
             if (it != null) {
                 when(it.status) {
                     Status.LOADING -> binding.progressBarWeek.visibility = View.VISIBLE
