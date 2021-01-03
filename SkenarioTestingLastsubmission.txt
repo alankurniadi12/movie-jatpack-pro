@@ -65,8 +65,21 @@ Skenario Unit Test
 
 	* Detail Video Viewmodel
 		Memuat data Video
-		- Memastikan data video detail dengan id tertentu berhasil dipanggil
+		- Memastikan data video detail dengan id tertentu berhasil dipanggil/didapatkan
 
 	* Detail TvShow Viewmodel
 		Memuat data TvShow
-		- Memastikan data tvshow detail dengan id tertentu berhasil dipanggil
+		- Memastikan data tvshow detail dengan id tertentu berhasil dipanggil/didapatkan
+
+
+	* Bookmark Movie ViewModel
+		Memuat Bookmark Movie
+		- Memastikan data bookmark movie tidak null
+		- Memastikan jumlah data bookmark sesuai dengan yang diharapkan
+
+	* Bookmark Tvshow ViewModel
+		Memuat Bookmark Tvshow
+		- Memastikan data bookmark Tvshow tidak null
+		- Memastikan jumlah data bookmark sesuai dengan yang diharapkan
+
+
