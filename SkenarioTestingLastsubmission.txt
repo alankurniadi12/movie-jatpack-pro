@@ -60,3 +60,13 @@ Skenario Unit Test
 		Memuat List Tvshow
 		- Memastikan data tvshow tidak null.
 		- Memastikan jumlah data tvshow sesuai yang diharapkan.
+
+
+
+	* Detail Video Viewmodel
+		Memuat data Video
+		- Memastikan data video detail dengan id tertentu berhasil dipanggil
+
+	* Detail TvShow Viewmodel
+		Memuat data TvShow
+		- Memastikan data tvshow detail dengan id tertentu berhasil dipanggil

@@ -7,8 +7,6 @@ import com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepository
 import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.NowPlayingMovie
 import com.alankurniadi.submission2jatpackpromovie.utils.DataDummy
 import com.nhaarman.mockitokotlin2.verify
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -21,7 +19,7 @@ import org.mockito.junit.MockitoJUnitRunner
 class DetailMovieViewModelTest {
 
     private lateinit var viewModel: DetailMovieViewModel
-    private val dummy = DataDummy.getMovieDetail()
+    private val dummy = DataDummy.getNowPlayingMovie()[0]
     private val id = dummy.id
 
     @get:Rule
@@ -36,26 +34,14 @@ class DetailMovieViewModelTest {
     @Before
     fun setUp() {
         viewModel = DetailMovieViewModel(movieDbRepository)
+        viewModel.setDetailMovielID(id.toString())
     }
 
     @Test
     fun getDetailMovie() {
         val movie = MutableLiveData<NowPlayingMovie>()
         movie.value = dummy
-
         `when`(movieDbRepository.getDetailMovie(id)).thenReturn(movie)
-        val detail = viewModel.getMovie.value
-        verify(movieDbRepository).getDetailMovie(id)
-
-        assertNotNull(detail)
-        assertEquals(detail?.id, dummy.id)
-        assertEquals(detail?.backDrop, dummy.backDrop)
-        assertEquals(detail?.title, dummy.title)
-        assertEquals(detail?.overView, dummy.overView)
-        assertEquals(detail?.poster, dummy.poster)
-        assertEquals(detail?.date, dummy.date)
-        assertEquals(detail?.vote, dummy.vote)
-
         viewModel.getMovie.observeForever(observer)
         verify(observer).onChanged(dummy)
     }
