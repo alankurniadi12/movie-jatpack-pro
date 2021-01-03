@@ -61,7 +61,7 @@ class DetailTvActivity : AppCompatActivity() {
                         tvDetailTv.text = it.overview
                         Glide.with(detailActivityTv)
                             .load(Url.BACKDROP_URL+it.backdrop_path)
-                            .into(imgBackdroupTv)
+                            .into(imgBackdrop)
                         Glide.with(detailActivityTv)
                             .load(Url.POSTER_URL+it.poster_path)
                             .into(imgPosterTv)
@@ -81,7 +81,7 @@ class DetailTvActivity : AppCompatActivity() {
                         tvDetailTv.text = it.overview
                         Glide.with(detailActivityTv)
                             .load(Url.BACKDROP_URL+it.backDrop)
-                            .into(imgBackdroupTv)
+                            .into(imgBackdrop)
                         Glide.with(detailActivityTv)
                             .load(Url.POSTER_URL+it.poster_path)
                             .into(imgPosterTv)
@@ -101,7 +101,7 @@ class DetailTvActivity : AppCompatActivity() {
                         tvDetailTv.text = it.overview
                         Glide.with(detailActivityTv)
                             .load(Url.BACKDROP_URL+it.backDrop)
-                            .into(imgBackdroupTv)
+                            .into(imgBackdrop)
                         Glide.with(detailActivityTv)
                             .load(Url.POSTER_URL+it.poster_path)
                             .into(imgPosterTv)
