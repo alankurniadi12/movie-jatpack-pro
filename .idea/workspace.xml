@@ -42,7 +42,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca6101c-a194-464a-adbe-2e3004af2abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/BookmarkMovieViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/tv/BookmarkTvViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SkenarioTestingLastsubmission.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SkenarioTestingLastsubmission.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +111,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../ProgramFile/sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CloneRepo/Project Academy/12. Pagination-test/kotlin" />
     <property name="multi-representation-previewD:/Project/Dicoding/BAJP/Sub3AkhirJatPack/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/MyButton.kt_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="SDK Location" />
@@ -153,11 +155,11 @@
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.detail.tv" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.tv" />
+      <recent name="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.trending" />
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.movie" />
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.home" />
       <recent name="com.alankurniadi.submission2jatpackpromovie.data.source" />
-      <recent name="com.alankurniadi.submission2jatpackpromovie.ui.detail.tv" />
-      <recent name="com.alankurniadi.submission2jatpackpromovie.ui.detail.movie" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\res\drawable" />
@@ -169,7 +171,7 @@
       <recent name="D:\Project\Dicoding\BAJP\Submission2JatPackProMovie\app\src\main\java\com\alankurniadi\submission2jatpackpromovie\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.BookmarkMovieViewModelTest.getBookmark">
+  <component name="RunManager" selected="Android JUnit.BookmarkTvViewModelTest.getBookmarkTv">
     <configuration name="BookmarkMovieViewModelTest.getBookmark" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Submission2JatPackProMovie.app" />
       <extension name="coverage">
@@ -181,6 +183,40 @@
       <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.movie" />
       <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.movie.BookmarkMovieViewModelTest" />
       <option name="METHOD_NAME" value="getBookmark" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookmarkTrendingViewModelTest.getBookmarkTrending" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Submission2JatPackProMovie.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.trending.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.trending" />
+      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.trending.BookmarkTrendingViewModelTest" />
+      <option name="METHOD_NAME" value="getBookmarkTrending" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookmarkTvViewModelTest.getBookmarkTv" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Submission2JatPackProMovie.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.tv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.tv" />
+      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.bookmark.tv.BookmarkTvViewModelTest" />
+      <option name="METHOD_NAME" value="getBookmarkTv" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -215,40 +251,6 @@
       <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.detail.tv" />
       <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.detail.tv.DetailTvViewModelTest" />
       <option name="METHOD_NAME" value="getDataDetailTv" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieViewModelTest.getNowPlayingMovie" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Submission2JatPackProMovie.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.ui.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home" />
-      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home.MovieViewModelTest" />
-      <option name="METHOD_NAME" value="getNowPlayingMovie" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TvViewModelTest.getAiringTvShow" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Submission2JatPackProMovie.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alankurniadi.submission2jatpackpromovie.ui.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home" />
-      <option name="MAIN_CLASS_NAME" value="com.alankurniadi.submission2jatpackpromovie.ui.home.TvViewModelTest" />
-      <option name="METHOD_NAME" value="getAiringTvShow" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -321,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.BookmarkTvViewModelTest.getBookmarkTv" />
+        <item itemvalue="Android JUnit.BookmarkTrendingViewModelTest.getBookmarkTrending" />
         <item itemvalue="Android JUnit.BookmarkMovieViewModelTest.getBookmark" />
         <item itemvalue="Android JUnit.DetailTvViewModelTest.getDataDetailTv" />
         <item itemvalue="Android JUnit.DetailMovieViewModelTest.getDetailMovie" />
-        <item itemvalue="Android JUnit.TvViewModelTest.getAiringTvShow" />
-        <item itemvalue="Android JUnit.MovieViewModelTest.getNowPlayingMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609680670189</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BookmarkMovieViewModelTest.kt Succses">
+      <created>1609681774278</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609681774278</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -430,7 +439,8 @@
     <MESSAGE value="Rubah fungsi MovieViewModel.kt - MovieViewModelTest.kt succses" />
     <MESSAGE value="Rubah fungsi TvViewModel.kt - TvViewModelTest.kt succses" />
     <MESSAGE value="DetailMovieViewModelTest.kt &amp; DetailTvViewModelTest.kt succses" />
-    <option name="LAST_COMMIT_MESSAGE" value="DetailMovieViewModelTest.kt &amp; DetailTvViewModelTest.kt succses" />
+    <MESSAGE value="BookmarkMovieViewModelTest.kt Succses" />
+    <option name="LAST_COMMIT_MESSAGE" value="BookmarkMovieViewModelTest.kt Succses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="280" key="#Notifications" timestamp="1608369673053">
@@ -479,9 +489,10 @@
     </state>
     <state x="160" y="239" width="1268" height="450" key="AVDManager/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662754607" />
     <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1609557046009" />
-    <state x="349" y="172" key="AndroidCreateResourceFileDialog" timestamp="1609043090930">
+    <state x="349" y="172" key="AndroidCreateResourceFileDialog" timestamp="1609681706104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="349" y="172" key="AndroidCreateResourceFileDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609681706104" />
     <state x="349" y="172" key="AndroidCreateResourceFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1609043090930" />
     <state x="614" y="207" key="AndroidCreateXmlResourceDialog" timestamp="1609125468568">
       <screen x="0" y="0" width="1536" height="834" />
@@ -491,10 +502,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="565" y="164" key="AndroidProcessChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1609078692813" />
-    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1609680668786">
+    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1609681772743">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609680668786" />
+    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609681772743" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1609472903225">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -512,25 +523,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="379" y="116" key="Github.UntrackedFilesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472027338" />
-    <state width="1492" height="259" key="GridCell.Tab.0.bottom" timestamp="1609681512560">
+    <state width="1492" height="259" key="GridCell.Tab.0.bottom" timestamp="1609682603460">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="259" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609681512560" />
+    <state width="1492" height="259" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682603460" />
     <state width="1491" height="364" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
-    <state width="1492" height="259" key="GridCell.Tab.0.center" timestamp="1609681512560">
+    <state width="1492" height="259" key="GridCell.Tab.0.center" timestamp="1609682603460">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="259" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609681512560" />
+    <state width="1492" height="259" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682603460" />
     <state width="1491" height="364" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
-    <state width="1492" height="259" key="GridCell.Tab.0.left" timestamp="1609681512560">
+    <state width="1492" height="259" key="GridCell.Tab.0.left" timestamp="1609682603460">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="259" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609681512560" />
+    <state width="1492" height="259" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682603460" />
     <state width="1491" height="364" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609561893276" />
-    <state width="1492" height="259" key="GridCell.Tab.0.right" timestamp="1609681512560">
+    <state width="1492" height="259" key="GridCell.Tab.0.right" timestamp="1609682603460">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="259" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609681512560" />
+    <state width="1492" height="259" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682603460" />
     <state width="1491" height="364" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
     <state x="555" y="107" width="914" height="707" key="SettingsEditor" timestamp="1609572502804">
       <screen x="0" y="0" width="1536" height="834" />
@@ -542,10 +553,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609680759089" />
-    <state x="584" y="195" key="chooseDestDirectoryDialog" timestamp="1609680879004">
+    <state x="584" y="195" key="chooseDestDirectoryDialog" timestamp="1609682244358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609680879004" />
+    <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682244358" />
     <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1609562592768" />
     <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609472637517">
       <screen x="0" y="0" width="1536" height="834" />
@@ -570,10 +581,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="532" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472429218" />
-    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1609680879052">
+    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1609682244402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609680879052" />
+    <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682244402" />
     <state x="469" y="107" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1609562592811" />
     <state x="545" y="190" key="refactoring.ChangeSignatureDialog" timestamp="1608117123537">
       <screen x="0" y="0" width="1536" height="834" />

@@ -72,6 +72,12 @@ Skenario Unit Test
 		- Memastikan data tvshow detail dengan id tertentu berhasil dipanggil/didapatkan
 
 
+
+	* Bookmark Trending ViewModel
+		Memuat Bookmark Trending
+		- Memastikan data bookmark trending tidak null
+		- Memastikan jumlah data bookmark sesuai dengan yang diharapkan
+
 	* Bookmark Movie ViewModel
 		Memuat Bookmark Movie
 		- Memastikan data bookmark movie tidak null
