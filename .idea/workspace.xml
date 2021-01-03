@@ -36,12 +36,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca6101c-a194-464a-adbe-2e3004af2abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TrendingViewModelTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkenarioTestingLastsubmission.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SkenarioTestingLastsubmission.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/MovieViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/MovieViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TrendingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/home/TrendingViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/utils/DataDummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/utils/DataDummy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/WeekViewModelTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/MovieViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/alankurniadi/submission2jatpackpromovie/ui/home/MovieViewModelTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,7 @@
       <recent name="com.alankurniadi.submission2jatpackpromovie.ui.bookmark" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.TrendingViewModelTest.getTrendingWeek">
+  <component name="RunManager" selected="Android JUnit.MovieViewModelTest.getNowPlayingMovie">
     <configuration name="MovieDbRepositoryTest.getAiringTv" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Submission2JatPackProMovie.app" />
       <extension name="coverage">
@@ -318,8 +318,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.TrendingViewModelTest.getTrendingWeek" />
         <item itemvalue="Android JUnit.MovieViewModelTest.getNowPlayingMovie" />
+        <item itemvalue="Android JUnit.TrendingViewModelTest.getTrendingWeek" />
         <item itemvalue="Android JUnit.MovieDbRepositoryTest.getBookmarkTv" />
         <item itemvalue="Android JUnit.MovieDbRepositoryTest.getDetailTv" />
         <item itemvalue="Android JUnit.MovieDbRepositoryTest.getAiringTv" />
@@ -351,8 +351,25 @@
       <option name="project" value="LOCAL" />
       <updated>1609489153491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rubah fungsi TrendingViewModel.kt - TrendingViewModelTest.kt succses">
+      <created>1609662711502</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609662711502</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -373,7 +390,8 @@
     </ignored-roots>
     <MESSAGE value="Update compiler" />
     <MESSAGE value="All bookmark page success" />
-    <option name="LAST_COMMIT_MESSAGE" value="All bookmark page success" />
+    <MESSAGE value="Rubah fungsi TrendingViewModel.kt - TrendingViewModelTest.kt succses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubah fungsi TrendingViewModel.kt - TrendingViewModelTest.kt succses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="280" key="#Notifications" timestamp="1608369673053">
@@ -417,10 +435,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="484" y="209" width="579" height="416" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1609118420624" />
-    <state x="160" y="239" width="1268" height="450" key="AVDManager" timestamp="1609571950720">
+    <state x="160" y="239" width="1268" height="450" key="AVDManager" timestamp="1609662754607">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="160" y="239" width="1268" height="450" key="AVDManager/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609571950720" />
+    <state x="160" y="239" width="1268" height="450" key="AVDManager/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662754607" />
     <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1609557046009" />
     <state x="349" y="172" key="AndroidCreateResourceFileDialog" timestamp="1609043090930">
       <screen x="0" y="0" width="1536" height="834" />
@@ -434,10 +452,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="565" y="164" key="AndroidProcessChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1609078692813" />
-    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1609489151655">
+    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1609662708982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609489151655" />
+    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662708982" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1609472903225">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -455,25 +473,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="379" y="116" key="Github.UntrackedFilesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472027338" />
-    <state width="1491" height="380" key="GridCell.Tab.0.bottom" timestamp="1609662011580">
+    <state width="1491" height="259" key="GridCell.Tab.0.bottom" timestamp="1609663339238">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="380" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011580" />
+    <state width="1491" height="259" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609663339238" />
     <state width="1491" height="364" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
-    <state width="1491" height="380" key="GridCell.Tab.0.center" timestamp="1609662011579">
+    <state width="1491" height="259" key="GridCell.Tab.0.center" timestamp="1609663339238">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="380" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011579" />
+    <state width="1491" height="259" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609663339238" />
     <state width="1491" height="364" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
-    <state width="1491" height="380" key="GridCell.Tab.0.left" timestamp="1609662011578">
+    <state width="1491" height="259" key="GridCell.Tab.0.left" timestamp="1609663339238">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="380" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011578" />
+    <state width="1491" height="259" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609663339238" />
     <state width="1491" height="364" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609561893276" />
-    <state width="1491" height="380" key="GridCell.Tab.0.right" timestamp="1609662011579">
+    <state width="1491" height="259" key="GridCell.Tab.0.right" timestamp="1609663339238">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1491" height="380" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662011579" />
+    <state width="1491" height="259" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609663339238" />
     <state width="1491" height="364" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609561893277" />
     <state x="555" y="107" width="914" height="707" key="SettingsEditor" timestamp="1609572502804">
       <screen x="0" y="0" width="1536" height="834" />

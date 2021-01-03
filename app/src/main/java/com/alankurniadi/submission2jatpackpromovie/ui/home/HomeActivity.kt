@@ -36,8 +36,6 @@ class HomeActivity : AppCompatActivity() {
 
         //TRENDING
         val viewModelWeek = ViewModelProvider(this, factory)[TrendingViewModel::class.java]
-        binding.progressBarWeek.visibility = View.VISIBLE
-        //viewModelWeek.getTrendingWeek()
         trendingAdapter = TrendingAdapter(this)
         viewModelWeek.getTrendingWeek().observe(this, Observer {
             if (it != null) {
@@ -61,12 +59,8 @@ class HomeActivity : AppCompatActivity() {
 
         //MOVIE
         val viewmodelMovie = ViewModelProvider(this, factory)[MovieViewModel::class.java]
-        binding.progressMovie.visibility = View.VISIBLE
-        binding.progressMovie.visibility = View.VISIBLE
-        viewmodelMovie.getNowPlayingMovie()
         movieAdapter = MovieAdapter(this)
-        //EspressoIdlingResource.increment()
-        viewmodelMovie.data.observe(this, Observer {
+        viewmodelMovie.getNowPlayingMovie().observe(this, Observer {
             if (it != null) {
                 when(it.status) {
                     Status.LOADING -> binding.progressMovie.visibility = View.VISIBLE
@@ -87,7 +81,6 @@ class HomeActivity : AppCompatActivity() {
 
         //TV
         val viewModelTv = ViewModelProvider(this, factory)[TvViewModel::class.java]
-        binding.progressTv.visibility = View.VISIBLE
         viewModelTv.getNowAiringTv()
         tvAdapter = TvAdapter(this)
         //EspressoIdlingResource.increment()

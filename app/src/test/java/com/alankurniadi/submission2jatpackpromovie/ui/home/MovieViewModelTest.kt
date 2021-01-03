@@ -48,12 +48,12 @@ class MovieViewModelTest {
         movie.value = dummyMovie
 
         `when`(movieDbRepository.getNowPlayingMovie()).thenReturn(movie)
-        val mMovie = viewModel.data.value?.data
+        val mMovie = viewModel.getNowPlayingMovie().value?.data
         verify(movieDbRepository).getNowPlayingMovie()
         assertNotNull(mMovie)
         assertEquals(5, mMovie?.size)
 
-        viewModel.data.observeForever(observer)
+        viewModel.getNowPlayingMovie().observeForever(observer)
         verify(observer).onChanged(dummyMovie)
     }
 }

@@ -12,7 +12,6 @@ import com.alankurniadi.submission2jatpackpromovie.vo.Resource
 class TrendingViewModel(private val movieDbRepository: MovieDbRepository) : ViewModel() {
 
     val trendingId = MutableLiveData<String>()
-    lateinit var data: LiveData<Resource<PagedList<TrendingWeek>>>
 
     fun setDetailTrendingId(id: String) {
         this.trendingId.value = id

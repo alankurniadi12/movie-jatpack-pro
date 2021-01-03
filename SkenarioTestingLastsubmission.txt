@@ -46,5 +46,17 @@ Skenario Unit Test
 
 
 
-	* Trending ViewModel
-		
+	* Trending Viewmodel
+		Memuat List Trending
+		- Memastikan data trending tidak null.
+		- Memastikan jumlah data trending sesuai yang diharapkan.
+
+	* Movie Viewmodel
+		Memuat List Movie
+		- Memastikan data movie tidak null.
+		- Memastikan jumlah data movie sesuai yang diharapkan.
+
+	* Tvshow Viewmodel
+		Memuat List Tvshow
+		- Memastikan data tvshow tidak null.
+		- Memastikan jumlah data tvshow sesuai yang diharapkan.

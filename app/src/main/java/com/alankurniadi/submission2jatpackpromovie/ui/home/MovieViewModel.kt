@@ -9,9 +9,5 @@ import com.alankurniadi.submission2jatpackpromovie.vo.Resource
 
 class MovieViewModel(private val movieDbRepository: MovieDbRepository): ViewModel() {
 
-    lateinit var data: LiveData<Resource<PagedList<NowPlayingMovie>>>
-
-    fun getNowPlayingMovie() {
-        data = movieDbRepository.getNowPlayingMovie()
-    }
+    fun getNowPlayingMovie(): LiveData<Resource<PagedList<NowPlayingMovie>>> = movieDbRepository.getNowPlayingMovie()
 }
