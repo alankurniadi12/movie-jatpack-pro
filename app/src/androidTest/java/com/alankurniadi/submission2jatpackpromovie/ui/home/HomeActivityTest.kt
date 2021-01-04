@@ -52,8 +52,6 @@ class HomeActivityTest {
         onView(withId(R.id.action_bookmark)).perform(click())
         onView(withId(R.id.detail_activity_movie)).perform(swipeUp())
         onView(withId(R.id.detail_activity_movie)).perform(swipeDown())
-
-        //onView(withId(R.id.detail_activity_movie)).perform(pressBack())
     }
 
     @Test
@@ -65,8 +63,6 @@ class HomeActivityTest {
         onView(withId(R.id.action_bookmark)).perform(click())
         onView(withId(R.id.detail_activity_tv)).perform(swipeUp())
         onView(withId(R.id.detail_activity_tv)).perform(swipeDown())
-
-        //onView(withId(R.id.detail_activity_tv)).perform(pressBack())
     }
 
     @Test

@@ -35,13 +35,13 @@ interface AppDao {
     fun updateDetailMovie(nowPlayingMovie: NowPlayingMovie)
 
     @Query("SELECT * FROM nowplaying")
-    fun getAllNowPlaying(): DataSource.Factory<Int, NowPlayingMovie> //LiveData<List<NowPlayingMovie>>
+    fun getAllNowPlaying(): DataSource.Factory<Int, NowPlayingMovie>
 
     @Query("SELECT * FROM nowplaying WHERE id = :id")
-    fun getDetailMovie(id: Int): LiveData<NowPlayingMovie> //LiveData<NowPlayingMovie>
+    fun getDetailMovie(id: Int): LiveData<NowPlayingMovie>
 
     @Query("SELECT * FROM nowplaying WHERE bookmarked = 1")
-    fun getBookmarkMovie(): DataSource.Factory<Int, NowPlayingMovie> //LiveData<List<NowPlayingMovie>>
+    fun getBookmarkMovie(): DataSource.Factory<Int, NowPlayingMovie>
 
 
     //TV

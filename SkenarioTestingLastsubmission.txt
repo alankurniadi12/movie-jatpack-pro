@@ -89,3 +89,37 @@ Skenario Unit Test
 		- Memastikan jumlah data bookmark sesuai dengan yang diharapkan
 
 
+
+Skenario Intrument Test
+	* HomeActivityTest
+		fun loadTrending()
+		- Memastikan rv_this_week tampil
+		- Klik pada list trending di posisi pertama
+		- Memastikan icon img_start tampil
+		- Klik pada icon bookmar disebelah kanan atas untuk menyimpan detail kedalam database
+		- - Memastikan icon img_start tampil
+
+		fun loadlMovie()
+		- Memastikan rv_movie tampil
+		- Klik pada list movie di posisi pertama
+		- Memastikan title movie pada halaman detail tampil
+		- Klik pada icon bookmark disebelah kanan atas
+		- SwipUp halaman
+		- SwipDown halaman
+
+		fun loadTvShowList()
+		- SwipUp halaman home
+		- Klik pada list Tvshow pada posisi pertama
+		- Memastikan title tvshow tampil
+		- Klik icon bookmark disamping kanan atas
+		- SwipUp halaman detail 
+		- SwipDown halaman detail
+
+		fun loadBookmark()
+		- Buka menu yang ada didalam 3 titik dikanan atas
+		- Klik pada tulisan "Bookmark" untuk pergi kehalaman Bookmark
+		- Klik pada tab "TREND"
+		- Klik pada tab "MOVIE"
+		- Klik pada tab "TV SHOW"
+
+
