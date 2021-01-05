@@ -21,7 +21,7 @@ class DetailTvActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailTvBinding
     private lateinit var viewModelTv: DetailTvViewModel
-    internal lateinit var viewModelTrending: TrendingViewModel
+    private lateinit var viewModelTrending: TrendingViewModel
     private var menu: Menu? = null
     private var dataTrending: TrendingWeek? = null
     private var dataTvshow: NowAiringTv? = null

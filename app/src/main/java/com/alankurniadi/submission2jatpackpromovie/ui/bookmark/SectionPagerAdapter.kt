@@ -11,7 +11,7 @@ import com.alankurniadi.submission2jatpackpromovie.ui.bookmark.tv.TvBookmarkFrag
 
 class SectionPagerAdapter(private val mContext: Context, fm: FragmentManager): FragmentPagerAdapter(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
-    private val TAB_TITLES = intArrayOf(R.string.tab_trending, R.string.tab_movie, R.string.tab_tv)
+    private val tabTitles = intArrayOf(R.string.tab_trending, R.string.tab_movie, R.string.tab_tv)
 
     override fun getItem(position: Int): Fragment {
         var fragment: Fragment? = null
@@ -24,9 +24,9 @@ class SectionPagerAdapter(private val mContext: Context, fm: FragmentManager): F
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
-        return mContext.resources.getString(TAB_TITLES[position])
+        return mContext.resources.getString(tabTitles[position])
     }
 
-    override fun getCount(): Int = TAB_TITLES.size
+    override fun getCount(): Int = tabTitles.size
 
 }

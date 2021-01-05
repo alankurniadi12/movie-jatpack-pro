@@ -47,10 +47,9 @@ class MovieDbRepository private constructor(
             override fun shouldFetch(data: PagedList<TrendingWeek>?): Boolean =
                 data == null || data.isEmpty()
 
-            override fun createCall(): LiveData<ApiResponse<List<TrendingResponse>>> {
-                val dataList = remoteDataSource.getAllTrending()
-                return dataList
-            }
+            override fun createCall(): LiveData<ApiResponse<List<TrendingResponse>>> =
+                remoteDataSource.getAllTrending()
+
             override fun saveCallResult(data: List<TrendingResponse>) {
                 val weekTrendingResult = ArrayList<TrendingWeek>()
                 for (response in data) {

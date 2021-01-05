@@ -8,7 +8,7 @@ import com.alankurniadi.submission2jatpackpromovie.data.source.MovieDbRepository
 import com.alankurniadi.submission2jatpackpromovie.data.source.local.entity.NowPlayingMovie
 
 class DetailMovieViewModel(private val movieDbRepository: MovieDbRepository): ViewModel() {
-    val detailMovieId = MutableLiveData<String>()
+    private val detailMovieId = MutableLiveData<String>()
 
     fun setDetailMovielID(id: String) {
         this.detailMovieId.value = id

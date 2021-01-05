@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.alankurniadi.submission2jatpackpromovie.databinding.FragmentMovieBookmarkBinding
@@ -37,7 +36,7 @@ class MovieBookmarkFragment : Fragment() {
         super.onResume()
         if (activity != null) {
             binding.progressBarMovie.visibility = View.VISIBLE
-            vm.getBookmark().observe(viewLifecycleOwner, Observer { data ->
+            vm.getBookmark().observe(viewLifecycleOwner, { data ->
                 binding.progressBarMovie.visibility = View.GONE
                 adapter.submitList(data)
                 binding.rvBookmarkMovie.layoutManager = LinearLayoutManager(context)

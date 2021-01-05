@@ -17,8 +17,8 @@ import com.bumptech.glide.Glide
 
 class DetailMovieActivity : AppCompatActivity() {
 
-    internal lateinit var viewModelMovie: DetailMovieViewModel
-    internal lateinit var viewModelTrending: TrendingViewModel
+    private lateinit var viewModelMovie: DetailMovieViewModel
+    private lateinit var viewModelTrending: TrendingViewModel
     private lateinit var binding: ActivityDetailMovieBinding
     private var menu: Menu? = null
     private var dataMovie: NowPlayingMovie? = null

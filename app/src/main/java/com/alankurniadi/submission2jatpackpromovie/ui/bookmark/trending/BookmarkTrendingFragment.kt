@@ -1,12 +1,10 @@
 package com.alankurniadi.submission2jatpackpromovie.ui.bookmark.trending
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.alankurniadi.submission2jatpackpromovie.databinding.FragmentBookmarkTrendingBinding
@@ -37,7 +35,7 @@ class BookmarkTrendingFragment : Fragment() {
         super.onResume()
         if (activity != null) {
             binding.progressBarTrending.visibility = View.VISIBLE
-            vm.getBookmarkTrending().observe(viewLifecycleOwner, Observer { data ->
+            vm.getBookmarkTrending().observe(viewLifecycleOwner, { data ->
                 binding.progressBarTrending.visibility = View.GONE
                 adapter.submitList(data)
                 binding.rvBookmarkTrending.layoutManager = LinearLayoutManager(context)
