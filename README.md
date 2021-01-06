@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/language-Kotlin-blue)](https://github.com/alankurniadi12/GithubUser/blob/master/app/build.gradle)
 
 
-> Projek aplikasi android dengan bahasa pemograman Kotlin, sebagai sayarat menyelesaikan kelas BFAA yang diadakan oleh dicoding.com. Boleh diclone untuk dipelajari alur programnya tetapi sangat tidak disarankan untuk ciplak/copas/ditiru atau apapun yang dianggap menyalin sourecode secara langsung.
+> Projek aplikasi android MovieDb sebagai sayarat menyelesaikan kelas Belajar Android  Jetpack Pro (BAJP) yang diadakan oleh dicoding.com. Boleh diclone untuk dipelajari alur programnya tetapi sangat tidak disarankan untuk ciplak/copas/ditiru atau apapun yang dianggap menyalin sourecode secara langsung. Happy coding
 
 ## Features App
 * List Trending
