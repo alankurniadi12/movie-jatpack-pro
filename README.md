@@ -30,7 +30,8 @@
 * [Retrofit](https://github.com/square/retrofit)
 
 ## Screenshots
-![home2](https://user-images.githubusercontent.com/39579462/103729606-68560280-5013-11eb-833e-e85002bba545.png)
+![home2](https://user-images.githubusercontent.com/39579462/103729606-68560280-5013-11eb-833e-e85002bba545.png) 
+![detail](https://user-images.githubusercontent.com/39579462/103730388-54130500-5015-11eb-9531-1a67cbf2394e.png)
 
 ## Contact 
 Feel free to contact me.
