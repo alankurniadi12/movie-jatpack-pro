@@ -10,8 +10,6 @@
 * List Movie 
 * List TvShow
 * Save Local DB
-* Daily Reminder at 09.00 AM
-* Cunsumer App
 
 ## Component
 * Local Storage: SQLite + Room
@@ -32,7 +30,7 @@
 * [Retrofit](https://github.com/square/retrofit)
 
 ## Screenshots
-![home2](https://user-images.githubusercontent.com/39579462/94994829-7172a600-05c4-11eb-883e-a7fe0261771d.png)
+![home2](https://user-images.githubusercontent.com/39579462/103729606-68560280-5013-11eb-833e-e85002bba545.png)
 
 ## Contact 
 Feel free to contact me.
