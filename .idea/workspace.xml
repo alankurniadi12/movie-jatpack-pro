@@ -43,41 +43,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ca6101c-a194-464a-adbe-2e3004af2abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_migration_2_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_2_6_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_migration_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_2_5_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Submission2JatPackProMovie.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Submission2JatPackProMovie.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/MovieDbRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/NowAiringTv.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/NowAiringTv.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/NowPlayingMovie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/NowPlayingMovie.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/TrendingWeek.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/data/source/local/entity/TrendingWeek.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/MovieBookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/movie/MovieBookmarkFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/trending/BookmarkTrendingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/tv/TvBookmarkFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/bookmark/tv/TvBookmarkFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/movie/DetailMovieActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/movie/DetailMovieActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/movie/DetailMovieViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/movie/DetailMovieViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/tv/DetailTvActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/tv/DetailTvActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/tv/DetailTvViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alankurniadi/submission2jatpackpromovie/ui/detail/tv/DetailTvViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_button_detail.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_button_detail_disable.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_error_person.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_loading.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh_black.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_save_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_tv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_tv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_list_bookmark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list_bookmark.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_list_simple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list_simple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +65,36 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Submission2JatPackProMovie" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Submission2JatPackProMovie" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Submission2JatPackProMovie" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Submission2JatPackProMovie" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -474,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609732660510</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modified based on reviewer suggestions">
+      <created>1609842577732</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609842577732</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -526,7 +528,8 @@
     <MESSAGE value="BookmarkTrendingViewModelTest.kt - BookmarkTvViewModelTest.kt Succses" />
     <MESSAGE value="All working done, Instrument test success" />
     <MESSAGE value="Rapikan semua code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rapikan semua code" />
+    <MESSAGE value="modified based on reviewer suggestions" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified based on reviewer suggestions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="280" key="#Notifications" timestamp="1608369673053">
@@ -575,11 +578,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="516" y="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1609836090198" />
-    <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1609841513252">
+    <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1609920176117">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="160" y="239" width="1268" height="450" key="AVDManager/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609662754607" />
-    <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1609841513252" />
+    <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1609920176117" />
     <state x="349" y="172" key="AndroidCreateResourceFileDialog" timestamp="1609681706104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -593,15 +596,16 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="565" y="164" key="AndroidProcessChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1609078692813" />
-    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1609732658187">
+    <state x="378" y="0" key="CommitChangelistDialog2" timestamp="1609842574232">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609690947524" />
-    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1609732658187" />
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1609472903225">
+    <state x="378" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1609842574231" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1609908795098">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472903225" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1609908795098" />
     <state x="252" y="221" key="FileChooserDialogImpl" timestamp="1609733302427">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -615,45 +619,47 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="379" y="116" key="Github.UntrackedFilesDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472027338" />
-    <state width="1491" height="259" key="GridCell.Tab.0.bottom" timestamp="1609841651852">
+    <state width="1491" height="259" key="GridCell.Tab.0.bottom" timestamp="1609842418860">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1492" height="304" key="GridCell.Tab.0.bottom/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609691012087" />
-    <state width="1491" height="259" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609841651852" />
-    <state width="1491" height="259" key="GridCell.Tab.0.center" timestamp="1609841651852">
+    <state width="1491" height="259" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1609842418860" />
+    <state width="1491" height="259" key="GridCell.Tab.0.center" timestamp="1609842418859">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1492" height="304" key="GridCell.Tab.0.center/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609691012087" />
-    <state width="1491" height="259" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609841651852" />
-    <state width="1491" height="259" key="GridCell.Tab.0.left" timestamp="1609841651852">
+    <state width="1491" height="259" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1609842418859" />
+    <state width="1491" height="259" key="GridCell.Tab.0.left" timestamp="1609842418859">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1492" height="304" key="GridCell.Tab.0.left/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609691012087" />
-    <state width="1491" height="259" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609841651852" />
-    <state width="1491" height="259" key="GridCell.Tab.0.right" timestamp="1609841651852">
+    <state width="1491" height="259" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1609842418859" />
+    <state width="1491" height="259" key="GridCell.Tab.0.right" timestamp="1609842418859">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1492" height="304" key="GridCell.Tab.0.right/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609691012087" />
-    <state width="1491" height="259" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609841651852" />
+    <state width="1491" height="259" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1609842418859" />
     <state x="555" y="107" width="914" height="707" key="SettingsEditor" timestamp="1609572502804">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="555" y="107" key="SettingsEditor/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609572502804" />
     <state x="571" y="107" width="914" height="707" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1609556969682" />
     <state x="951" y="133" width="1175" height="766" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1601347733932" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1609690956841">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1609842600440">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609690956841" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609842600440" />
     <state x="584" y="195" key="chooseDestDirectoryDialog" timestamp="1609682244358">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609682244358" />
     <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1609562592768" />
-    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609472637517">
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609908754680">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-345.-1080.2560.1050@0.0.1536.834" timestamp="1609472637517" />
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1609908754680" />
     <state x="-345" y="-1080" width="1280" height="1050" key="dock-window-1" timestamp="1609585442866">
       <screen x="-345" y="-1080" width="2560" height="1050" />
     </state>
